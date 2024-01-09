@@ -264,3 +264,116 @@
     z-index: 5;
     margin-top: 80px;
 }
+/* portfolio section */
+.portfolio{
+    width: 800px;
+    margin: 0px auto;
+    padding-top: 500px;
+}
+.image-first-container{
+    display: flex;
+    justify-content: space-around;
+}
+.portfolio img{
+    height: 200px;
+    width: 200px;
+}
+.image-second-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0px;
+}
+
+.best-gift{
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    
+}
+.awesome{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+.portfolio-description{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px; 
+}
+.container-message{
+    text-align: center;
+
+}
+.container-message h3{
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+.des{
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px; 
+}
+.user-mail{
+    padding: 20px ;
+    width: 500px;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+    font-size: 20px;
+    border: none;
+}
+.user-btn{
+    padding: 20px ;
+    width: 150px;
+    border: none;
+    position: absolute;
+    margin-right: 10px;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+    background-color: #F00;
+    color: white;
+    font-size: 20px;
+
+}
+.group-6{
+    padding-top: 20px;
+}
+.message{
+    background: rgba(255, 0, 0, 0.05);
+    padding-bottom: 20px;
+    border-radius: 5px;
+}
+.icon{
+    text-align: center;
+    padding: 20px;
+}
+footer{
+    background-color: #070211;
+    padding: 30px 0px;
+}
+.wrapper{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.small{
+    color: white;
+    text-align: left;
+}
+.end{
+    position: absolute;
+    right: 50px;
+    color: white;
+
+}
